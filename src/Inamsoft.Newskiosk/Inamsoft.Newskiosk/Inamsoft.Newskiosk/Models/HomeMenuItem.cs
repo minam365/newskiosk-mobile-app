@@ -7,6 +7,7 @@ namespace Inamsoft.Newskiosk.Models
     public enum MenuItemType
     {
         Browse,
+        Settings,
         About
     }
     public class HomeMenuItem
