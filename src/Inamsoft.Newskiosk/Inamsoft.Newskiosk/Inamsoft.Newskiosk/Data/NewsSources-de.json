@@ -31,12 +31,63 @@
   },
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaed",
+    "Name": "Süddeutsche Zeitung",
+    "Description": "Aktuelle Nachrichten, Hintergründe und Kommentare - SZ.de",
+    "LinkUrl": "https://www.sueddeutsche.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaee",
+    "Name": "Der Spiegel",
+    "Description": "DER SPIEGEL | Online-Nachrichten",
+    "LinkUrl": "https://www.spiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "FOCUS Online",
+    "Description": "FOCUS Online - Nachrichten",
+    "LinkUrl": "https://www.focus.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "STERN.de",
+    "Description": "Nachrichten, Hintergründe &amp; Reportagen | STERN.de",
+    "LinkUrl": "https://www.stern.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "ZEIT ONLINE",
+    "Description": "ZEIT ONLINE | Nachrichten, Hintergründe und Debatten",
+    "LinkUrl": "https://www.zeit.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Der Tagesspiegel",
+    "Description": "Aktuelle News: Nachrichten aus Berlin und der Welt – Tagesspiegel",
+    "LinkUrl": "https://www.tagesspiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Rheinische Post",
+    "Description": "Aktuelle Nachrichten | RP ONLINE",
+    "LinkUrl": "https://rp-online.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "taz.de",
+    "Description": "Nachrichten",
+    "LinkUrl": "https://taz.de/"
+  },
+
+
+
+  {
+    "Id": "corona",
     "Name": "Coronavirus Info",
     "Description": "Coronavirus Update",
     "LinkUrl": "https://www.worldometers.info/coronavirus/"
   },
   {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaee",
+    "Id": "rki.de",
     "Name": "Robert Koch Institute",
     "Description": "Fallzahlen",
     "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
