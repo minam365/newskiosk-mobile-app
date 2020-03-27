@@ -9,9 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inamsoft.Newskiosk.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inamsoft.Newskiosk.iOS", "Inamsoft.Newskiosk\Inamsoft.Newskiosk.iOS\Inamsoft.Newskiosk.iOS.csproj", "{1A7EDAB6-12AD-4B4E-9162-3304D79A2A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inamsoft.Newskiosk.Web", "Inamsoft.Newskiosk\Inamsoft.Newskiosk.Web\Inamsoft.Newskiosk.Web.csproj", "{0B308B2D-5C2D-40D2-AD48-ECC1EFBA6A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inamsoft.Newskiosk.Web", "Inamsoft.Newskiosk\Inamsoft.Newskiosk.Web\Inamsoft.Newskiosk.Web.csproj", "{0B308B2D-5C2D-40D2-AD48-ECC1EFBA6A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inamsoft.Newskiosk", "Inamsoft.Newskiosk\Inamsoft.Newskiosk\Inamsoft.Newskiosk.csproj", "{AA819F03-195E-4BD0-824D-7E6B97A623AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inamsoft.Newskiosk", "Inamsoft.Newskiosk\Inamsoft.Newskiosk\Inamsoft.Newskiosk.csproj", "{AA819F03-195E-4BD0-824D-7E6B97A623AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08F33EA1-C2AC-488B-B373-14233E369EF6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

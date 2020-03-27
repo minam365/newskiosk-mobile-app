@@ -1,0 +1,13 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+
+# All files
+[*]
+indent_style = space
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+# CSharp files
+[*.cs]
+file_header_template = Copyrigth (c) 2020 Inamsoft. All rights reserved.\n Licensed under the GNU general public license, v3.

@@ -9,12 +9,19 @@
              Title="{Binding Title}">
 
     <StackLayout Spacing="20">
-        <forms:WebView BackgroundColor="WhiteSmoke"
+        <forms:RefreshView 
+            RefreshColor="Teal"
+            IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                       Command="{Binding RefreshCommand}">
+
+            <forms:WebView BackgroundColor="WhiteSmoke"
             Source="{Binding LinkUrl}"
             d:Source="https://docs.microsoft.com/xamarin/"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand">
-        </forms:WebView>
+            </forms:WebView>
+        </forms:RefreshView>
+
     </StackLayout>
-    
+
 </ContentPage>
