@@ -2,8 +2,8 @@
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Inamsoft.Newskiosk.Services;
 using Inamsoft.Newskiosk.Views;
+using Inamsoft.Newskiosk.Data;
 
 namespace Inamsoft.Newskiosk
 {
