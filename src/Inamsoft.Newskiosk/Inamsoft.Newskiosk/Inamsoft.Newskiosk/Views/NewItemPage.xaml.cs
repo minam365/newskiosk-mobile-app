@@ -5,7 +5,6 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Inamsoft.Newskiosk.Models;
-using Inamsoft.Newskiosk.Abstractions.Models;
 
 namespace Inamsoft.Newskiosk.Views
 {
@@ -14,15 +13,15 @@ namespace Inamsoft.Newskiosk.Views
     [DesignTimeVisible(false)]
     public partial class NewItemPage : ContentPage
     {
-        public NewsLinkItem Item { get; set; }
+        public Item Item { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new NewsLinkItem
+            Item = new Item
             {
-                Name = "Item name",
+                Text = "Item name",
                 Description = "This is an item description."
             };
 

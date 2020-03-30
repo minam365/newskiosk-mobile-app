@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inamsoft.Newskiosk.Abstractions.Models
+namespace Inamsoft.Newskiosk.Models
 {
     public class NewsLinkItem
     {
@@ -12,8 +12,6 @@ namespace Inamsoft.Newskiosk.Abstractions.Models
         public string LinkUrl { get; set; }
 
         public string MobileUrl { get; set; }
-
-        public string Category { get; set; }
 
     }
 }

@@ -5,7 +5,6 @@ using Xamarin.Forms.Xaml;
 
 using Inamsoft.Newskiosk.Models;
 using Inamsoft.Newskiosk.ViewModels;
-using Inamsoft.Newskiosk.Abstractions.Models;
 
 namespace Inamsoft.Newskiosk.Views
 {
@@ -14,7 +13,7 @@ namespace Inamsoft.Newskiosk.Views
     [DesignTimeVisible(false)]
     public partial class ItemDetailPage : ContentPage
     {
-        readonly ItemDetailViewModel viewModel;
+        ItemDetailViewModel viewModel;
 
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {

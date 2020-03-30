@@ -12,12 +12,6 @@
     "LinkUrl": "https://www.ksta.de"
   },
   {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
-    "Name": "Kölnische Rundschau",
-    "Description": "Nachrichten aus Köln, der Region und der Welt",
-    "LinkUrl": "https://www.rundschau-online.de/"
-  },
-  {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaea",
     "Name": "Frankfurter Allgemeine Zeitung",
     "Description": "Aktuelle Nachrichten online - FAZ.NET",
@@ -83,25 +77,8 @@
     "Description": "Nachrichten",
     "LinkUrl": "https://taz.de/"
   },
-  {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
-    "Name": "Berliner Kurier",
-    "Description": "HOME | Berliner Kurier",
-    "LinkUrl": "https://www.berliner-kurier.de/"
-  },
-  {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
-    "Name": "Handelsblatt",
-    "Description": "Handelsblatt - Nachrichten aus Finanzen, Wirtschaft plus Politik",
-    "LinkUrl": "https://www.handelsblatt.com/"
-  },
 
-  {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
-    "Name": "Berliner Morgenpost",
-    "Description": "Aktuelle Nachrichten aus Berlin und der Welt - Berliner Morgenpost",
-    "LinkUrl": "https://www.morgenpost.de/"
-  },
+
 
   {
     "Id": "corona",

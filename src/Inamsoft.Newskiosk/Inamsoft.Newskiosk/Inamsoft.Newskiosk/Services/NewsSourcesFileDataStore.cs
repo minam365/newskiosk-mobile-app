@@ -1,5 +1,4 @@
-﻿using Inamsoft.Newskiosk.Abstractions;
-using Inamsoft.Newskiosk.Abstractions.Models;
+﻿using Inamsoft.Newskiosk.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,8 +9,9 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
-namespace Inamsoft.Newskiosk.Data
+namespace Inamsoft.Newskiosk.Services
 {
     public class NewsSourcesFileDataStore : BaseDataStore, IDataStore<NewsLinkItem>
     {
@@ -82,11 +82,9 @@ namespace Inamsoft.Newskiosk.Data
             {
                 using var fs = File.OpenRead(_dataFilePath);
 
-                _items = await ObjectSerializer.Default.DeserializeAsync<List<NewsLinkItem>>(fs);
-
-                //JsonSerializerOptions serializerOptions = new JsonSerializerOptions();
-                //serializerOptions.Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.LatinExtendedE);
-                //_items = await JsonSerializer.DeserializeAsync<List<NewsLinkItem>>(fs);
+                JsonSerializerOptions serializerOptions = new JsonSerializerOptions();
+                serializerOptions.Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.LatinExtendedE);
+                _items = await JsonSerializer.DeserializeAsync<List<NewsLinkItem>>(fs);
 
             }
 
@@ -121,7 +119,7 @@ namespace Inamsoft.Newskiosk.Data
             }
 
             var assembly = IntrospectionExtensions.GetTypeInfo(GetType()).Assembly;
-            using var resourceStream = assembly.GetManifestResourceStream("Inamsoft.Newskiosk.Data.Resources.NewsSources-de.json");
+            using var resourceStream = assembly.GetManifestResourceStream("Inamsoft.Newskiosk.Data.NewsSources-de.json");
             using var sr = new StreamReader(resourceStream);
             using var sw = new StreamWriter(_dataFilePath, append: false, Encoding.UTF8);
             

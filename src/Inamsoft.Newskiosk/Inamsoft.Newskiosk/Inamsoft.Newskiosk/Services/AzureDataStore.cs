@@ -3,66 +3,65 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Inamsoft.Newskiosk.Abstractions;
-using Inamsoft.Newskiosk.Abstractions.Models;
+using Newtonsoft.Json;
+using Xamarin.Essentials;
+using Inamsoft.Newskiosk.Models;
 
-namespace Inamsoft.Newskiosk.Data
+namespace Inamsoft.Newskiosk.Services
 {
-    public class AzureDataStore : BaseDataStore, IDataStore<NewsLinkItem>
+    public class AzureDataStore : BaseDataStore, IDataStore<Item>
     {
         HttpClient client;
-        IEnumerable<NewsLinkItem> items;
+        IEnumerable<Item> items;
 
         public AzureDataStore()
         {
             client = new HttpClient();
-            client.BaseAddress = new Uri("http://10.0.2.2:5000/");
+            client.BaseAddress = new Uri($"{App.AzureBackendUrl}/");
 
-            items = new List<NewsLinkItem>();
+            items = new List<Item>();
         }
 
-        public async Task<IEnumerable<NewsLinkItem>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
         {
             if (forceRefresh && IsConnected)
             {
                 var json = await client.GetStringAsync($"api/item");
-                items = await ObjectSerializer.Default.DeserializeAsync<IEnumerable<NewsLinkItem>>(json);
+                items = await Task.Run(() => JsonConvert.DeserializeObject<IEnumerable<Item>>(json));
             }
 
             return items;
         }
 
-        public async Task<NewsLinkItem> GetItemAsync(string id)
+        public async Task<Item> GetItemAsync(string id)
         {
             if (id != null && IsConnected)
             {
                 var json = await client.GetStringAsync($"api/item/{id}");
-                return await ObjectSerializer.Default.DeserializeAsync<NewsLinkItem>(json);
+                return await Task.Run(() => JsonConvert.DeserializeObject<Item>(json));
             }
 
             return null;
         }
 
-        public async Task<bool> AddItemAsync(NewsLinkItem item)
+        public async Task<bool> AddItemAsync(Item item)
         {
             if (item == null || !IsConnected)
                 return false;
 
-            var serializedItem = await ObjectSerializer.Default.SerializeAsync(item)
-                                                               .ConfigureAwait(false);
+            var serializedItem = JsonConvert.SerializeObject(item);
 
             var response = await client.PostAsync($"api/item", new StringContent(serializedItem, Encoding.UTF8, "application/json"));
 
             return response.IsSuccessStatusCode;
         }
 
-        public async Task<bool> UpdateItemAsync(NewsLinkItem item)
+        public async Task<bool> UpdateItemAsync(Item item)
         {
             if (item == null || item.Id == null || !IsConnected)
                 return false;
 
-            var serializedItem = await ObjectSerializer.Default.SerializeAsync(item)
-                                                               .ConfigureAwait(false);
+            var serializedItem = JsonConvert.SerializeObject(item);
             var buffer = Encoding.UTF8.GetBytes(serializedItem);
             var byteContent = new ByteArrayContent(buffer);
 

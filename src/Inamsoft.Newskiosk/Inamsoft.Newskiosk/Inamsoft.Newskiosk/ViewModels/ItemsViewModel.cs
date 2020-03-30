@@ -7,7 +7,6 @@ using Xamarin.Forms;
 
 using Inamsoft.Newskiosk.Models;
 using Inamsoft.Newskiosk.Views;
-using Inamsoft.Newskiosk.Abstractions.Models;
 
 namespace Inamsoft.Newskiosk.ViewModels
 {

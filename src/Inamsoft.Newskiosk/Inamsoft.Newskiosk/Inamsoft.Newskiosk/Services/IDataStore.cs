@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Inamsoft.Newskiosk.Abstractions
+namespace Inamsoft.Newskiosk.Services
 {
     public interface IDataStore<T>
     {
