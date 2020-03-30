@@ -3,6 +3,7 @@
 
 using System;
 using System.Windows.Input;
+using Inamsoft.Newskiosk.Abstractions.Models;
 using Inamsoft.Newskiosk.Models;
 using Xamarin.Forms;
 

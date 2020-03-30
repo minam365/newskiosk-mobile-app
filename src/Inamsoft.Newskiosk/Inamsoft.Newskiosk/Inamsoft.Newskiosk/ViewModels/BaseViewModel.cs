@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Inamsoft.Newskiosk.Abstractions;
+using Inamsoft.Newskiosk.Abstractions.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
 using Xamarin.Forms;
-
-using Inamsoft.Newskiosk.Models;
-using Inamsoft.Newskiosk.Services;
 
 namespace Inamsoft.Newskiosk.ViewModels
 {

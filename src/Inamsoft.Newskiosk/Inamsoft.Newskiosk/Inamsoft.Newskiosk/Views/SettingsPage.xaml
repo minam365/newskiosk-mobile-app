@@ -1,20 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             xmlns:vm="clr-namespace:Inamsoft.Newskiosk.ViewModels"
-             x:Class="Inamsoft.Newskiosk.Views.SettingsPage"
-             Title="{Binding Title}">
+<forms:ContentPage
+    x:Class="Inamsoft.Newskiosk.Views.SettingsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:forms="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Inamsoft.Newskiosk.ViewModels"
+    mc:Ignorable="d"
+    Title="{Binding Title}">
 
-    <ContentPage.BindingContext>
+    <forms:ContentPage.BindingContext>
         <vm:SettingsViewModel />
-    </ContentPage.BindingContext>
+    </forms:ContentPage.BindingContext>
 
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+    <TableView Intent="Settings">
+        <TableRoot>
+            <TableSection Title="Sorting">
+                <SwitchCell Text="Sort by Name" />
+                <SwitchCell Text="New Mail" On="true" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
     
-    
-</ContentPage>
+</forms:ContentPage>
