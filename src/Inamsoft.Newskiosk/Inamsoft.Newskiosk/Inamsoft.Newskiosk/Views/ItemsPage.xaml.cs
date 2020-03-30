@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using Inamsoft.Newskiosk.Models;
 using Inamsoft.Newskiosk.Views;
 using Inamsoft.Newskiosk.ViewModels;
+using Inamsoft.Newskiosk.Abstractions.Models;
 
 namespace Inamsoft.Newskiosk.Views
 {

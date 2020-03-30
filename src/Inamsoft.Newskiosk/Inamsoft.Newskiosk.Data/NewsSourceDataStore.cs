@@ -1,12 +1,12 @@
-﻿using Inamsoft.Newskiosk.Models;
-using Inamsoft.Newskiosk.Services;
+﻿using Inamsoft.Newskiosk.Abstractions;
+using Inamsoft.Newskiosk.Abstractions.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inamsoft.Newskiosk.Services
+namespace Inamsoft.Newskiosk.Data
 {
     public class NewsSourceDataStore : IDataStore<NewsLinkItem>
     {
