@@ -2,14 +2,20 @@
   {
     "Id": "6fe82c14-fc70-46a9-a2ee-72420432d86b",
     "Name": "Express",
-    "Description": "Express.de - Aktuelle Nachrichten aus Köln, der Welt sowie Neues vom Sport und der Welt der Promis.",
+    "Description": "Aktuelle Nachrichten aus Köln, der Welt sowie Neues vom Sport und der Welt der Promis.",
     "LinkUrl": "https://www.express.de"
   },
   {
     "Id": "659a3c33-1162-4e18-af12-b865c06b2ab4",
     "Name": "Kölner Stadt Anzeiger",
-    "Description": "Kölner Stadt-Anzeiger - Aktuelle Nachrichten aus Köln und der ganzen Welt",
+    "Description": "Aktuelle Nachrichten aus Köln und der ganzen Welt",
     "LinkUrl": "https://www.ksta.de"
+  },
+  {
+    "Id": "659a3c33-1162-4e18-af12-b865c06b2ab4",
+    "Name": "Kölnische Rundschau",
+    "Description": "Nachrichten aus Köln, der Region und der Welt",
+    "LinkUrl": "https://www.rundschau-online.de/"
   },
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaea",
