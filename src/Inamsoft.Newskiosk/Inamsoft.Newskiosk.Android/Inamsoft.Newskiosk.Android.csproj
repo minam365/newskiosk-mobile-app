@@ -94,8 +94,16 @@
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Inamsoft.Newskiosk.Abstractions\Inamsoft.Newskiosk.Abstractions.csproj">
+      <Project>{9011c410-1c6f-4f6a-b9e2-04df2da6a185}</Project>
+      <Name>Inamsoft.Newskiosk.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inamsoft.Newskiosk.Data\Inamsoft.Newskiosk.Data.csproj">
+      <Project>{1b5b1237-52b2-452b-8e79-9bf6538a230f}</Project>
+      <Name>Inamsoft.Newskiosk.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Inamsoft.Newskiosk\Inamsoft.Newskiosk.csproj">
-      <Project>{740593B3-039A-49E6-A8F2-010C21696499}</Project>
+      <Project>{aa819f03-195e-4bd0-824d-7e6b97a623ae}</Project>
       <Name>Inamsoft.Newskiosk</Name>
     </ProjectReference>
   </ItemGroup>
