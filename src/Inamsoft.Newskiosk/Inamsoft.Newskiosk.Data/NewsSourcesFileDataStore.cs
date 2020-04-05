@@ -115,10 +115,10 @@ namespace Inamsoft.Newskiosk.Data
 
         async ValueTask EnsureDataFileExistsAsync()
         {
-            if (File.Exists(_dataFilePath))
-            {
-                return;
-            }
+            //if (File.Exists(_dataFilePath))
+            //{
+            //    return;
+            //}
 
             var assembly = IntrospectionExtensions.GetTypeInfo(GetType()).Assembly;
             using var resourceStream = assembly.GetManifestResourceStream("Inamsoft.Newskiosk.Data.Resources.NewsSources-de.json");

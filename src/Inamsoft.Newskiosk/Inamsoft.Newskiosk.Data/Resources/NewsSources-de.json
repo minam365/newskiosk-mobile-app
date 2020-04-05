@@ -1,5 +1,23 @@
 ﻿[
   {
+    "Id": "corona",
+    "Name": "Coronavirus Info",
+    "Description": "Coronavirus Update",
+    "LinkUrl": "https://www.worldometers.info/coronavirus/"
+  },
+  {
+    "Id": "rki.de",
+    "Name": "Robert Koch Institute",
+    "Description": "Fallzahlen",
+    "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
+  },
+  {
+    "Id": "jhu",
+    "Name": "COVID-19 Global Cases",
+    "Description": "Johns Hopkins University",
+    "LinkUrl": "https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61"
+  },
+  {
     "Id": "6fe82c14-fc70-46a9-a2ee-72420432d86b",
     "Name": "Express",
     "Description": "Aktuelle Nachrichten aus Köln, der Welt sowie Neues vom Sport und der Welt der Promis.",
@@ -32,7 +50,7 @@
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
     "Name": "Die Welt",
-    "Description": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos",
+    "Description": "Aktuelle Nachrichten, News, Hintergründe & Videos",
     "LinkUrl": "https://www.welt.de"
   },
   {
@@ -44,13 +62,13 @@
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaee",
     "Name": "Der Spiegel",
-    "Description": "DER SPIEGEL | Online-Nachrichten",
+    "Description": "Online-Nachrichten",
     "LinkUrl": "https://www.spiegel.de/"
   },
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
     "Name": "FOCUS Online",
-    "Description": "FOCUS Online - Nachrichten",
+    "Description": "Nachrichten",
     "LinkUrl": "https://www.focus.de/"
   },
   {
@@ -62,7 +80,7 @@
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
     "Name": "ZEIT ONLINE",
-    "Description": "ZEIT ONLINE | Nachrichten, Hintergründe und Debatten",
+    "Description": "Nachrichten, Hintergründe und Debatten",
     "LinkUrl": "https://www.zeit.de/"
   },
   {
@@ -86,7 +104,7 @@
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
     "Name": "Berliner Kurier",
-    "Description": "HOME | Berliner Kurier",
+    "Description": "Berliner Kurier",
     "LinkUrl": "https://www.berliner-kurier.de/"
   },
   {
@@ -95,24 +113,44 @@
     "Description": "Handelsblatt - Nachrichten aus Finanzen, Wirtschaft plus Politik",
     "LinkUrl": "https://www.handelsblatt.com/"
   },
-
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
     "Name": "Berliner Morgenpost",
     "Description": "Aktuelle Nachrichten aus Berlin und der Welt - Berliner Morgenpost",
     "LinkUrl": "https://www.morgenpost.de/"
   },
-
   {
-    "Id": "corona",
-    "Name": "Coronavirus Info",
-    "Description": "Coronavirus Update",
-    "LinkUrl": "https://www.worldometers.info/coronavirus/"
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Berliner Zeitung",
+    "Description": "Für Berliner, von Berlinern",
+    "LinkUrl": "https://www.berliner-zeitung.de/"
   },
   {
-    "Id": "rki.de",
-    "Name": "Robert Koch Institute",
-    "Description": "Fallzahlen",
-    "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Frankfurter Rundschau",
+    "Description": "Nachrichten aus Deutschland und der Welt",
+    "Category": "Sports",
+    "LinkUrl": "https://www.fr.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "WELT",
+    "Description": "Aktuelle Nachrichten, News, Hintergründe & Video",
+    "Category": "News",
+    "LinkUrl": "https://www.welt.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "n-tv",
+    "Description": "Nachrichten, aktuelle Schlagzeilen und Videos",
+    "Category": "News",
+    "LinkUrl": "https://www.n-tv.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "kicker",
+    "Description": "Nachrichten aus Deutschland und der Welt",
+    "Category": "Sports",
+    "LinkUrl": "https://www.kicker.de/"
   }
 ]

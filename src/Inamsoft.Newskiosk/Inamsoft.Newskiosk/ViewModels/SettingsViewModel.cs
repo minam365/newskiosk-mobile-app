@@ -13,5 +13,23 @@ namespace Inamsoft.Newskiosk.ViewModels
         {
             Title = "Settings";
         }
+
+
+        string _sortItemsByName = string.Empty;
+
+        public string SortItemsByName
+        {
+            get { return _sortItemsByName; }
+            set { SetProperty(ref _sortItemsByName, value); }
+        }
+
+
+        string _openLinksInDefaultBrowser = string.Empty;
+
+        public string OpenLinksInDefaultBrowser
+        {
+            get { return _openLinksInDefaultBrowser; }
+            set { SetProperty(ref _openLinksInDefaultBrowser, value); }
+        }
     }
 }

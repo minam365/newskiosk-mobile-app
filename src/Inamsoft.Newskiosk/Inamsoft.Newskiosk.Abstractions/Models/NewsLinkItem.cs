@@ -13,7 +13,7 @@ namespace Inamsoft.Newskiosk.Abstractions.Models
 
         public string MobileUrl { get; set; }
 
-        public string Category { get; set; }
+        public string Category { get; set; } = "News";
 
     }
 }

@@ -12,9 +12,16 @@
         <vm:SettingsViewModel />
     </ContentPage.BindingContext>
 
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-    
-    
+    <TableView Intent="Settings">
+        <TableRoot>
+            <TableSection Title="Links">
+                <SwitchCell Text="Open Links in Defult Browser" On="{Binding OpenLinksInDefaultBrowser}" />
+            </TableSection>
+            <TableSection Title="Sorting">
+                <SwitchCell Text="Sort by Name" On="{Binding SortItemsByName}" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+
+
 </ContentPage>
