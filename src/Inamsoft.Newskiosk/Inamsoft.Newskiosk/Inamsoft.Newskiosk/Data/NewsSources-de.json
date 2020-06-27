@@ -24,12 +24,6 @@
     "LinkUrl": "https://www.bild.de"
   },
   {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
-    "Name": "Die Welt",
-    "Description": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos",
-    "LinkUrl": "https://www.welt.de"
-  },
-  {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaed",
     "Name": "Süddeutsche Zeitung",
     "Description": "Aktuelle Nachrichten, Hintergründe und Kommentare - SZ.de",
@@ -77,9 +71,6 @@
     "Description": "Nachrichten",
     "LinkUrl": "https://taz.de/"
   },
-
-
-
   {
     "Id": "corona",
     "Name": "Coronavirus Info",
@@ -91,5 +82,12 @@
     "Name": "Robert Koch Institute",
     "Description": "Fallzahlen",
     "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
+    "Name": "Die Welt",
+    "Description": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos",
+    "LinkUrl": "https://www.welt.de"
   }
+
 ]
