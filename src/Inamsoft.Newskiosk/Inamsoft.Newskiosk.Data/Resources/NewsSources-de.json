@@ -12,6 +12,12 @@
     "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
   },
   {
+    "Id": "rki.de",
+    "Name": "Robert Koch Institute - Dashboard",
+    "Description": "JHU",
+    "LinkUrl": "https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4"
+  },
+  {
     "Id": "jhu",
     "Name": "COVID-19 Global Cases",
     "Description": "Johns Hopkins University",
@@ -46,12 +52,6 @@
     "Name": "Bild.de",
     "Description": "Aktuelle Nachrichten - Bild.de",
     "LinkUrl": "https://www.bild.de"
-  },
-  {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
-    "Name": "Die Welt",
-    "Description": "Aktuelle Nachrichten, News, Hintergründe & Videos",
-    "LinkUrl": "https://www.welt.de"
   },
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaed",
@@ -133,11 +133,10 @@
     "LinkUrl": "https://www.fr.de/"
   },
   {
-    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
-    "Name": "WELT",
-    "Description": "Aktuelle Nachrichten, News, Hintergründe & Video",
-    "Category": "News",
-    "LinkUrl": "https://www.welt.de/"
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
+    "Name": "Die Welt",
+    "Description": "Aktuelle Nachrichten, News, Hintergründe & Videos",
+    "LinkUrl": "https://www.welt.de"
   },
   {
     "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
