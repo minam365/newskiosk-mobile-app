@@ -1,0 +1,93 @@
+﻿[
+  {
+    "Id": "6fe82c14-fc70-46a9-a2ee-72420432d86b",
+    "Name": "Express",
+    "Description": "Express.de - Aktuelle Nachrichten aus Köln, der Welt sowie Neues vom Sport und der Welt der Promis.",
+    "LinkUrl": "https://www.express.de"
+  },
+  {
+    "Id": "659a3c33-1162-4e18-af12-b865c06b2ab4",
+    "Name": "Kölner Stadt Anzeiger",
+    "Description": "Kölner Stadt-Anzeiger - Aktuelle Nachrichten aus Köln und der ganzen Welt",
+    "LinkUrl": "https://www.ksta.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaea",
+    "Name": "Frankfurter Allgemeine Zeitung",
+    "Description": "Aktuelle Nachrichten online - FAZ.NET",
+    "LinkUrl": "https://www.faz.net/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaeb",
+    "Name": "Bild.de",
+    "Description": "Aktuelle Nachrichten - Bild.de",
+    "LinkUrl": "https://www.bild.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaed",
+    "Name": "Süddeutsche Zeitung",
+    "Description": "Aktuelle Nachrichten, Hintergründe und Kommentare - SZ.de",
+    "LinkUrl": "https://www.sueddeutsche.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaee",
+    "Name": "Der Spiegel",
+    "Description": "DER SPIEGEL | Online-Nachrichten",
+    "LinkUrl": "https://www.spiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "FOCUS Online",
+    "Description": "FOCUS Online - Nachrichten",
+    "LinkUrl": "https://www.focus.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "STERN.de",
+    "Description": "Nachrichten, Hintergründe &amp; Reportagen | STERN.de",
+    "LinkUrl": "https://www.stern.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "ZEIT ONLINE",
+    "Description": "ZEIT ONLINE | Nachrichten, Hintergründe und Debatten",
+    "LinkUrl": "https://www.zeit.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Der Tagesspiegel",
+    "Description": "Aktuelle News: Nachrichten aus Berlin und der Welt – Tagesspiegel",
+    "LinkUrl": "https://www.tagesspiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Rheinische Post",
+    "Description": "Aktuelle Nachrichten | RP ONLINE",
+    "LinkUrl": "https://rp-online.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "taz.de",
+    "Description": "Nachrichten",
+    "LinkUrl": "https://taz.de/"
+  },
+  {
+    "Id": "corona",
+    "Name": "Coronavirus Info",
+    "Description": "Coronavirus Update",
+    "LinkUrl": "https://www.worldometers.info/coronavirus/"
+  },
+  {
+    "Id": "rki.de",
+    "Name": "Robert Koch Institute",
+    "Description": "Fallzahlen",
+    "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
+    "Name": "Die Welt",
+    "Description": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos",
+    "LinkUrl": "https://www.welt.de"
+  }
+
+]
