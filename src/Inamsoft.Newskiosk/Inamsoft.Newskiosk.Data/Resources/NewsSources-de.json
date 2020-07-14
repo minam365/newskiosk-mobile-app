@@ -1,0 +1,155 @@
+﻿[
+  {
+    "Id": "corona",
+    "Name": "Coronavirus Info",
+    "Description": "Coronavirus Update",
+    "LinkUrl": "https://www.worldometers.info/coronavirus/"
+  },
+  {
+    "Id": "rki.de",
+    "Name": "Robert Koch Institute",
+    "Description": "Fallzahlen",
+    "LinkUrl": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html"
+  },
+  {
+    "Id": "rki.de",
+    "Name": "Robert Koch Institute - Dashboard",
+    "Description": "JHU",
+    "LinkUrl": "https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4"
+  },
+  {
+    "Id": "jhu",
+    "Name": "COVID-19 Global Cases",
+    "Description": "Johns Hopkins University",
+    "LinkUrl": "https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61"
+  },
+  {
+    "Id": "6fe82c14-fc70-46a9-a2ee-72420432d86b",
+    "Name": "Express",
+    "Description": "Aktuelle Nachrichten aus Köln, der Welt sowie Neues vom Sport und der Welt der Promis.",
+    "LinkUrl": "https://www.express.de"
+  },
+  {
+    "Id": "659a3c33-1162-4e18-af12-b865c06b2ab4",
+    "Name": "Kölner Stadt Anzeiger",
+    "Description": "Aktuelle Nachrichten aus Köln und der ganzen Welt",
+    "LinkUrl": "https://www.ksta.de"
+  },
+  {
+    "Id": "659a3c33-1162-4e18-af12-b865c06b2ab4",
+    "Name": "Kölnische Rundschau",
+    "Description": "Nachrichten aus Köln, der Region und der Welt",
+    "LinkUrl": "https://www.rundschau-online.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaea",
+    "Name": "Frankfurter Allgemeine Zeitung",
+    "Description": "Aktuelle Nachrichten online - FAZ.NET",
+    "LinkUrl": "https://www.faz.net/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaeb",
+    "Name": "Bild.de",
+    "Description": "Aktuelle Nachrichten - Bild.de",
+    "LinkUrl": "https://www.bild.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaed",
+    "Name": "Süddeutsche Zeitung",
+    "Description": "Aktuelle Nachrichten, Hintergründe und Kommentare - SZ.de",
+    "LinkUrl": "https://www.sueddeutsche.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaee",
+    "Name": "Der Spiegel",
+    "Description": "Online-Nachrichten",
+    "LinkUrl": "https://www.spiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "FOCUS Online",
+    "Description": "Nachrichten",
+    "LinkUrl": "https://www.focus.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "STERN.de",
+    "Description": "Nachrichten, Hintergründe &amp; Reportagen | STERN.de",
+    "LinkUrl": "https://www.stern.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "ZEIT ONLINE",
+    "Description": "Nachrichten, Hintergründe und Debatten",
+    "LinkUrl": "https://www.zeit.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Der Tagesspiegel",
+    "Description": "Aktuelle News: Nachrichten aus Berlin und der Welt – Tagesspiegel",
+    "LinkUrl": "https://www.tagesspiegel.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Rheinische Post",
+    "Description": "Aktuelle Nachrichten | RP ONLINE",
+    "LinkUrl": "https://rp-online.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "taz.de",
+    "Description": "Nachrichten",
+    "LinkUrl": "https://taz.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Berliner Kurier",
+    "Description": "Berliner Kurier",
+    "LinkUrl": "https://www.berliner-kurier.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Handelsblatt",
+    "Description": "Handelsblatt - Nachrichten aus Finanzen, Wirtschaft plus Politik",
+    "LinkUrl": "https://www.handelsblatt.com/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Berliner Morgenpost",
+    "Description": "Aktuelle Nachrichten aus Berlin und der Welt - Berliner Morgenpost",
+    "LinkUrl": "https://www.morgenpost.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Berliner Zeitung",
+    "Description": "Für Berliner, von Berlinern",
+    "LinkUrl": "https://www.berliner-zeitung.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "Frankfurter Rundschau",
+    "Description": "Nachrichten aus Deutschland und der Welt",
+    "Category": "Sports",
+    "LinkUrl": "https://www.fr.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaec",
+    "Name": "Die Welt",
+    "Description": "Aktuelle Nachrichten, News, Hintergründe & Videos",
+    "LinkUrl": "https://www.welt.de"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "n-tv",
+    "Description": "Nachrichten, aktuelle Schlagzeilen und Videos",
+    "Category": "News",
+    "LinkUrl": "https://www.n-tv.de/"
+  },
+  {
+    "Id": "a5e7faed-3025-4f7a-a7a3-9e32f9eaeaef",
+    "Name": "kicker",
+    "Description": "Nachrichten aus Deutschland und der Welt",
+    "Category": "Sports",
+    "LinkUrl": "https://www.kicker.de/"
+  }
+]
